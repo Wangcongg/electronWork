@@ -1,0 +1,2 @@
+@Echo
+electron  main.js
