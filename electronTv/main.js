@@ -1,7 +1,5 @@
 const { app, BrowserWindow } = require('electron')
 const ipc = require('electron').ipcMain;
-const DownFile = require('./downfile.js');
-let downFile = new DownFile();
 
 // 保持对window对象的全局引用
 let win
